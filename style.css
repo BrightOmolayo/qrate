@@ -1,7 +1,6 @@
 body{
     background-color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    font-family: 'Qratesis', 'Noto Sans JP', sans-serif;}
 
 *{
     margin: 0;
@@ -37,7 +36,7 @@ footer{
 .standAloneH2{
     font-size: 180%;
     background-color: white;
-    border: 3px solid black;
+    border: 1.9px solid black;
     color:black;
     height: 140px;
     text-align: center;
@@ -47,17 +46,18 @@ footer{
 
 .mainFirstpt{
     display: flex;
-    background-color: aquamarine;
 }
 .mainFirstptOne{
     background-color: #497775;
     width: 50%;
-    border: 3px solid  black;
+    border: 1px solid black;
+    padding-bottom: 3%;
 }
 .mainFirstptTwo{
     background-color:#81836c;
     width: 50%;
-    border: 3px solid  black;
+    border: 1px solid  black;
+    padding-bottom: 3%;
 }
 .mainpt2{
     display: flex;
@@ -110,7 +110,7 @@ nav ul{
 
 .topRightCornerDiv{
    position: relative;
-   left: 30%;
+   left: 26%;
    width: 23%;
 }
 .makeYourOwnBtn{
@@ -185,29 +185,226 @@ header h1{
 .vinyl{
     background-color: white;
     color: black;
-    width: 22%;
+    width: 24%;
     position: relative;
-    left: 40%;
+    left: 37%;
     border: 3px solid black;
     padding: 7px 4px  7px 4px;
     font-weight: bolder;
     margin-top: 5%;
+    margin-bottom: 4%;
 }
 .mainFirstptOne{
     text-align: center;
+    padding-top: 3%;
 }
 .mainFirstptTwo{
     text-align: center;
+    padding-top: 3%;
 }
 
 .cassettes{
     background-color: white;
     color: black;
-    width: 26%;
+    width: 28%;
     position: relative;
-    left: 40%;
+    left: 37%;
     border: 3px solid black;
     padding: 7px 4px  7px 4px;
     font-weight: bolder;
     margin-top: 5%;
+    margin-bottom: 4%;
+}
+.mainFirstpt h2{
+    font-size: 250%;
+    margin-bottom: 4%;
+    padding-top: 1%;
+}
+.mainFirstpt p{
+    font-size: 130%;
+}
+.vinylImg{
+    width: 42%;
+    position: relative;
+    left: 28%;
+    padding: 30px 2px 30px 2px;
+}
+.cassetteImg{
+    width: 58%;
+    left: 18%;
+    position: relative;
+    padding: 30px 2px 60px 2px;
+}
+
+.mainFirstpt button{
+    background-color: black;
+    color: white;
+    width: 37%;
+    border-radius: 44px;
+    height: 48px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    border: transparent;
+}
+.mainFirstptTwo button{
+    width: 44%;
+}
+.standAloneH4{
+    padding: 6% 0% 6% 0%;
+    text-align: center;
+    font-size: 130%;
+    font-weight: light;
+    border: 1px solid black;
+}
+.mainSecondptOne{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+.mainSecondptTwo{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+.get{
+    background-color: white;
+    color: black;
+    width: 24%;
+    position: relative;
+    left: 37%;
+    border: 3px solid black;
+    padding: 7px 4px  7px 4px;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+.norisk{
+    background-color: white;
+    color: black;
+    width: 28%;
+    position: relative;
+    left: 37%;
+    border: 3px solid black;
+    padding: 7px 4px  7px 4px;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+.mainpt2 h2{
+    font-size: 250%;
+    margin-bottom: 4%;
+    padding-top: 1%;
+}
+.mainpt2 p{
+    font-size: 130%;
+}
+.animatedImg1{
+    width: 70%;
+    position: relative;
+    left: 18%;
+    padding: 30px 2px 30px 2px;
+}
+.animatedImg2{
+    width: 55%;
+    left: 20%;
+    position: relative;
+    padding: 30px 2px 30px 2px;
+}
+
+.mainpt2 button{
+    background-color: black;
+    color: white;
+    width: 37%;
+    border-radius: 44px;
+    height: 48px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    border: transparent;
+}
+
+.mainSecondptOne button{
+    margin-top: 8%;
+}
+
+.mainThirdpt{
+    padding: 5% 2% 5% 10%;
+    font-size: large;
+    line-height: 150%;
+}
+.mainThirdpt a{
+    color: white;
+    position: relative;
+    left: 68%;
+    text-decoration:underline;
+    width: 20%;
+    bottom: 21px;
+    font-size:90%;
+}
+.mainFourthptOne{
+    width: 50%;
+    text-align: center;
+    margin-top: 22%;
+}
+.services{
+    background-color: white;
+    color: black;
+    width: 24%;
+    position: relative;
+    left: 37%;
+    border: 3px solid black;
+    padding: 7px 4px  7px 4px;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 4%;   
+}
+.makemusic{
+    font-size: xxx-large;
+}
+.TwoMenContainer{
+    padding: 10% 2% 8% 2%;
+}
+.TwoMen{
+    width: 55%;
+    height: 380px;
+    transform: rotate(-10deg);
+    position: relative;
+    left: 24.2%;
+    border: 2px solid black;
+    background-image: url(./images/qrates-imgs\ \(7\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.mainFourthparagraph{
+    font-size: 118%;
+    padding: 8% 2% 8% 2%;
+    font-weight: bold;
+}
+
+.mainFourthptOne button{
+    background-color: white;
+    color: black;
+    width: 37%;
+    border-radius: 44px;
+    height: 48px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 1%;
+    margin-bottom: 8%;
+    border: 2px solid black;
+}
+.mainFourthptTwo{
+    border: 3px solid black;
+    padding: 14% 3% 28% 5%;
+    width: 40%;
+}
+.overallContainer{
+    width: 94%;
+    border: 3px solid black;
+    padding-bottom: 24%;
 }
