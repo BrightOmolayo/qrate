@@ -35,7 +35,7 @@ footer{
 }
 
 .standAloneH2{
-    font-size: 150%;
+    font-size: 180%;
     background-color: white;
     border: 3px solid black;
     color:black;
@@ -147,37 +147,67 @@ nav ul{
     padding-left: 3%;
 }
 .man{
-    width: 40%;
+    width: 44%;
     transform: rotate(10deg);
     z-index: 99;
-    padding-top: 60px;
+    padding-top: 40px;
     position: relative;
-    left: 8%;
+    left: 6%;
 }
 .headerimgs1Text{
     width: 42%;
 }
 .headerimgs1{
     margin-left: 5%;
-    height: 312px;
+    height: 250px;
 }
 .headerimgs{
     padding: 2% 2% 0% 2%;
 }
 .headerimgs2{
-    padding: 0% 2% 0% 8%;
+    padding: 0% 2% 0% 4%;
 }
 .turningSpeaker{
     width: 50%;
-    transform: rotate(-11deg);
+    transform: rotate(-10deg);
 }
 .tag{
     width: 20%;
     position: relative;
-    top: 133px;
+    top: 173px;
     left: 10%;
 }
 header h1{
     font-size: 420%;
     width: 140%;
+    line-height: 93%;
+}
+.vinyl{
+    background-color: white;
+    color: black;
+    width: 22%;
+    position: relative;
+    left: 40%;
+    border: 3px solid black;
+    padding: 7px 4px  7px 4px;
+    font-weight: bolder;
+    margin-top: 5%;
+}
+.mainFirstptOne{
+    text-align: center;
+}
+.mainFirstptTwo{
+    text-align: center;
+}
+
+.cassettes{
+    background-color: white;
+    color: black;
+    width: 26%;
+    position: relative;
+    left: 40%;
+    border: 3px solid black;
+    padding: 7px 4px  7px 4px;
+    font-weight: bolder;
+    margin-top: 5%;
 }
