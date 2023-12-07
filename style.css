@@ -363,7 +363,10 @@ header h1{
     margin-bottom: 4%;   
 }
 .makemusic{
-    font-size: xxx-large;
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000000;
+    font-size: 260%;
 }
 .TwoMenContainer{
     padding: 10% 2% 8% 2%;
@@ -401,10 +404,80 @@ header h1{
 .mainFourthptTwo{
     border: 3px solid black;
     padding: 14% 3% 28% 5%;
-    width: 40%;
+    width: 41%;
 }
 .overallContainer{
-    width: 94%;
+    width: 97%;
     border: 3px solid black;
     padding-bottom: 24%;
+}
+.mainLastOne{
+    text-align: center;
+    padding-top: 12%;
+
+}
+.Retail{
+    background-color: white;
+    color: black;
+    width: 24%;
+    position: relative;
+    left: 37%;
+    border: 3px solid black;
+    padding: 7px 4px  7px 4px;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 4%;   
+}
+.mainLastTwoImg{
+    border: 2px solid black;
+    margin: 10% 5% 0% 5%;
+}
+.mainLastOneImg{
+    width: 90%;
+}
+.mainLastTwo{
+    width: 50%;
+    text-align: center;
+}
+.mainLastOne{
+    width: 50%;
+}
+.makemusic1{
+    font-size: 250%;
+    margin-bottom: 4%;
+    padding-top: 1%;   
+}
+.mainLastpt p{
+    font-size: 130%;
+}
+.makemusic2{
+    font-size: 250%;
+    margin-bottom: 4%;
+    padding-top: 1%;   
+}
+.CUSTOMER{
+    background-color: white;
+    color: black;
+    width: 29%;
+    position: relative;
+    left: 37%;
+    border: 3px solid black;
+    padding: 7px 4px  7px 4px;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 4%;    
+}
+.mainLastpt button{
+    background-color: black;
+    color: white;
+    width: 37%;
+    border-radius: 44px;
+    height: 48px;
+    font-weight: bold;
+    font-size: large;
+    margin-top: 4%;
+    margin-bottom: 8%;
+    border: transparent; 
+}.mainLastpt{
+    margin-top: 3%;
 }
