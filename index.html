@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/qrates-logo-nav.svg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/2cbfcacb03.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -263,12 +264,16 @@
 
                     <!--drop down, like the one in ableton-->
                     <div class="overallContainer">
-                        container
+                        
 
                         <div class="records">
+                             
+                            <h2>
+                                Making Records & Cassettes
+                            </h2>
 
-                            <div class="design dropdown">
-                                <h5  class="dropbtn">
+                            <div class="design dropdown" onclick="toggleContent()" id="dropbtn" >
+                                <h5 >
                                     Design & Customization
                                 </h5>
                                 <div id="myDropdown" class="dropdown-content">
@@ -278,80 +283,118 @@
                                 </div>
                             </div>
 
-                            <div class="mastering">
+                            <div class="mastering design" onclick="toggleContent()" id="mastering">
                                 <h5>Mastering
                                 </h5>
-                                <p>Have your music mastered by engineers who specialize in mastering for vinyl.</p>
-                                <a href="LEARN MORE">LEARN MORE</a>
+                                <div id="myDropdown2" class="dropdown-content" >
+                                    <p>Have your music mastered by engineers who specialize in mastering for vinyl.</p>
+                                    <a href="LEARN MORE">LEARN MORE</a>
+                                </div>
                             </div>
 
-                            <div class="artwork">
+                            <div class="artwork design" onclick="toggleContent()" id="dropbtn">
                                 <h5>Artwork Assistance
                                 </h5>
-                                <p>
-                                    Our team can help you optimize your artwork and packaging so your vinyl looks as good as it sounds.
-                                </p>
-                                <a href="LEARN MORE">LEARN MORE</a>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <p>
+                                        Our team can help you optimize your artwork and packaging so your vinyl looks as good as it sounds.
+                                    </p>
+                                    <a href="LEARN MORE">LEARN MORE</a>
+                                </div>
                             </div>
-                            <div class="pressing">
+
+                            <div class="pressing design" onclick="toggleContent()" id="dropbtn">
                                 <h5>
                                     Vinyl Pressing & Cassette Duplication
                                 </h5>
-                                <p>
-                                    We've selected partners around the globe to provide products and services at reasonable prices and with excellent sound quality. With uncompromising partners, Qrates provides the best prices while maintaining our commitment to quality.
-                                </p>
-                                <a href="LEARN MORE">LEARN MORE</a>
+                                <div id="myDropdown" class="dropdown-content">
+                                    <p>
+                                        We've selected partners around the globe to provide products and services at reasonable prices and with excellent sound quality. With uncompromising partners, Qrates provides the best prices while maintaining our commitment to quality.
+                                    </p>
+                                    <a href="LEARN MORE">LEARN MORE</a>
+                                </div>
                             </div>
                         </div>
+
                         <div class="storage">
 
-                            <div class="free">
+                            <h2>
+                                Storage & Distribution
+                            </h2>
+
+                            <div class="free design" onclick="toggleContent()" id="dropbtn">
                                 <h5>free storage</h5>
-                                <p>At our warehouses in US, UK, and Japan, with no minimums or fees. </p>
-                                <a href="LEARN MORE">LEARN MORE</a>
+                                <div  id="myDropdown" class="dropdown-content">
+                                    <p>At our warehouses in US, UK, and Japan, with no minimums or fees. </p>
+                                    <a href="LEARN MORE">LEARN MORE</a>
+                                </div>
                             </div>
-                            <div class="sell">
+
+                            <div class="sell design" onclick="toggleContent()" id="dropbtn">
                                 <h5>sell with qrates</h5>
-                                <p>
-                                    Sell your record in the Qrates shop, directly connecting with an established community of music lovers and stores worldwide.
-                                </p>
-                                <a href="LEARN MORE">LEARN MORE</a>
+                                <div  id="myDropdown" class="dropdown-content">
+                                    <p>
+                                        Sell your record in the Qrates shop, directly connecting with an established community of music lovers and stores worldwide.
+                                    </p>
+                                    <a href="LEARN MORE">LEARN MORE</a>
+                                </div>
                             </div>
-                            <div class="digital">
+
+                            <div class="digital design" onclick="toggleContent()" id="dropbtn">
                                 <h5>Digital download</h5>
-                                <p>
-                                    Make your music available for digital download in our store too.
-                                </p>
-                                <a href="LEARN MORE">LEARN MORE</a>
+                                <div  id="myDropdown" class="dropdown-content">
+
+                                    <p>
+                                        Make your music available for digital download in our store too.
+                                    </p>
+                                    <a href="LEARN MORE">LEARN MORE</a>
+
+                                </div>
                             </div>
-                            <div class="retail">
+
+                            <div class="retail design" onclick="toggleContent()" id="dropbtn">
                                 <h5>
                                     Retail distribution
                                 </h5>
-                                <p>
-                                    Simply create a Qrates page, and start your project to collect orders from 150 affiliated record stores and distributors worldwide. Let us handle the fulfillment and shipping and you focus on selling records!
-                                </p>
-                                <a href="LEARN MORE">LEARN MORE</a>
+                                <div  id="myDropdown" class="dropdown-content">
+                                    <p>
+                                        Simply create a Qrates page, and start your project to collect orders from 150 affiliated record stores and distributors worldwide. Let us handle the fulfillment and shipping and you focus on selling records!
+                                    </p>
+                                    <a href="LEARN MORE">LEARN MORE</a>
+                                </div>
                             </div>
                         </div>
+
+
                         <div class="support">
-                            <div class="customer">
+
+                            <h2>
+                                Support
+                            </h2>
+
+                            <div class="customer design" onclick="toggleContent()" id="dropbtn">
                                 <h5>
                                     customer support
                                 </h5>
-                                <p>
-                                    Our dedicated customer care team is ready to help--from order updates to refunds, returns, or exchanges. We'll handle it.
-                                </p>
-                                <a href="LEARN MORE">LEARN MORE</a>
+                                <div  id="myDropdown" class="dropdown-content">
+                                    <p>
+                                        Our dedicated customer care team is ready to help--from order updates to refunds, returns, or exchanges. We'll handle it.
+                                    </p>
+                                    <a href="LEARN MORE">LEARN MORE</a>
+                                </div>
                             </div>
-                            <div class="artist">
-                                 <h5>
+
+                            <div class="artist design" onclick="toggleContent()" id="dropbtn">
+                                <h5>
                                     Artist support
-                                 </h5>
-                                 <p>
-                                    Our Qrates team can guide you through all the technical details, making the production process low stress and hassle-free.
-                                 </p>
-                                 <a href="LEARN MORE">LEARN MORE</a>
+                                </h5>
+                                <div  id="myDropdown" class="dropdown-content">
+                                    <p>
+                                        Our Qrates team can guide you through all the technical details, making the production process low stress and hassle-free.
+                                     </p>
+                                     <a href="LEARN MORE">LEARN MORE</a>
+                                </div>
+                       
                             </div>
                         </div>
                     </div>
@@ -554,6 +597,23 @@
 
                 <h2>Qrates <br> MUSIC IN YOUR HANDS</h2>
 
+            </div>
+
+            <div class="footerLastDiv">
+                <a href="Terms of Service">Terms of Service</a>
+                <a href="Privacy Policy">Privacy Policy</a>
+                <a href="Legal Information">Legal Information</a>
+
+                <p >
+                    © TDMS Inc.
+                </p>
+            </div>
+
+            <div class="icons">
+
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-facebook" aria-hidden="true"></i>
             </div>
 
         </footer>

@@ -26,6 +26,7 @@ img{
 footer{
     background-color: black;
     padding-top: 8%;
+    color: white;
 }
 .footerlinks{
     display: flex;
@@ -406,9 +407,16 @@ header h1{
     width: 41%;
 }
 .overallContainer{
-    width: 97%;
     border: 3px solid black;
-    padding-bottom: 24%;
+}
+.overallContainer h2{
+    background-color: black;
+    color: white;
+    padding: 4% 3% 4% 3%;
+}
+.design{
+    border: 3px solid black;
+    font-size: large;
 }
 .mainLastOne{
     text-align: center;
@@ -496,5 +504,13 @@ header h1{
    padding-bottom: 25%;
 }
 .last{
-   width: 35%;
+   width: 33%;
+   margin-left: 8%;
+}
+
+.fa{
+    color: white;
+}
+.dropdown-content{
+    display: none;
 }
