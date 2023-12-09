@@ -1,20 +1,18 @@
-function toggleContent() {
-    var div = document.getElementsByClassName("dropbtn");
-    var content = document.getElementById("myDropdown");
-  
-    if (content.style.display === "none") {
-      content.style.display = "block";
-    } else {
-      content.style.display = "none";
-    }
+function myFunction(){
+  var x = document.getElementById("dropdown1");
+
+  var y = document.getElementById("link1");
+      y.textContent= "LEARN MORE";
+
+  var p = document.getElementById("p")
+      p.textContent= "With over 40 colors and over 120,000 variations, control what your record will look like."
+
+  if(x.style.display === "none"){
+    x.style.display = "block";
   }
-  function toggleContent() {
-    var div = document.getElementsByClassName("mastering");
-    var content = document.getElementById("myDropdown2");
-  
-    if (content.style.display === "none") {
-      content.style.display = "block";
-    } else {
-      content.style.display = "none";
-    }
+   else{
+     x.style.display = "none";
   }
+}
+
+
