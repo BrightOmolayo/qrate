@@ -413,8 +413,8 @@ header h1{
 }
 .design{
     border: transparent;
-    font-size: large;
-    width: 150px;
+    font-size: larger;
+    width: 160px;
     text-decoration: none;
 }
 .design a{
@@ -507,8 +507,12 @@ header h1{
    margin-top: 3%;
 }
 .footerlinks{
-   padding-bottom: 25%;
+   padding-bottom: 24%;
 }
+
+.footerlinks a {
+    padding: 2px;
+ }
 
 .fa{
     color: white;
