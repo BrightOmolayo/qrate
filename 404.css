@@ -2,3 +2,41 @@ body{
     background-color: black;
     color: white;
 }
+.img{
+    margin: 9%  0%  0% 33%;
+}
+h1{
+    margin-left: 33%;
+    font-size: medium;
+}
+
+
+button {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    transition-timing-function: ease-in-out;
+    animation: mymove 1s infinite;
+    border-radius: 50px;
+    border: 7px solid rgb(53, 56, 46);
+    color: transparent;
+    margin-top: 6%;
+}
+
+  
+  button:hover {
+    animation-play-state: paused;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(pink, gray, );
+    color:rgb(53, 56, 46); ;
+    font-size: larger;
+    font-weight: bolder;
+}
+  
+  @keyframes mymove {
+    from {left: 0%;}
+    to {left: 90%;}
+    
+  }
